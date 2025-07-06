@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image">
+    <img src="assets/myphoto.jpg" alt="Profile Picture" class="profile-pic">
+</div>
+
+                <div class="profile-info">
+                    <h1 class="name">Anant Somani</h1>
+                    <p class="title">About Me</p>
+                    <p class="description">
+                        I'm Anant Somani, a Computer Engineering student at NMIMS University passionate about building full-stack web applications and AI-driven solutions. 
+                        I enjoy solving real-world problems using modern technologies like React, Flask, and Artificial Intelligence.
+                        During my internship at Zenith AI Labs, I worked on semantic web analysis and link suggestion systems using AI models. 
+                        I love learning new technologies, whether it's web development, generative AI.
+                    </p>
+                    <div class="social-links">
+    <!-- Email -->
+    <a href="mailto:anant.write@gmail.com" class="social-link" title="anant.write@gmail.com">
+    <i class="fas fa-envelope"></i>
+</a>
+    <!-- Phone -->
+    <a href="tel:+917597685893" class="social-link" title="+91 7597685893">
+    <i class="fas fa-phone"></i>
+</a>
+    <!-- GitHub -->
+    <a href="https://github.com/AnantSom" target="_blank" class="social-link" title="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="assets/AnantSomani_BTechCE.pdf" class="social-link" title="Resume" target="_blank">
+    <i class="fas fa-file-alt"></i>
+</a>
+<a href="https://www.linkedin.com/in/anant-somani-2b8b9730a/" target="_blank" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+</div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Education Section -->
+        <section class="education-section box">
+    <h2>Education</h2>
+    <div class="education-grid">
+        <div class="education-item">
+            <div class="education-icon">
+                <i class="fas fa-university"></i>
+            </div>
+            <h3>MPSTME, NMIMS University</h3>
+        </div>
+
+        <div class="education-item">
+            <div class="education-icon">
+                <i class="fas fa-school"></i>
+            </div>
+            <h3>Eden International School</h3>
+        </div>
+
+        <div class="education-item">
+            <div class="education-icon">
+                <i class="fas fa-school"></i>
+            </div>
+            <h3>Vivekananda Kendra Vidyalaya</h3>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+        <h2>Tech Stack</h2>
+        <div class="skills-grid">
+        <div class="skill-item">
+            <i class="fas fa-code"></i> <!-- Coding icon -->
+            <p><strong>Technical Skills:</strong> Python, Java, JavaScript, HTML, CSS, SQL, Firebase, Figma, Git, GitHub, VS Code, Eclipse IDE, Jupyter, Google Colab</p>
+        </div>
+
+        <div class="skill-item">
+            <i class="fas fa-cogs"></i> <!-- Technology/Tools icon -->
+            <p><strong>Domains & Technologies:</strong> GenAI, Machine Learning, Distributed Computing, UI/UX Design, Operating Systems, Computer Networks, Data Structures & Algorithms</p>
+        </div>
+
+        <div class="skill-item">
+            <i class="fas fa-users"></i> <!-- People/Soft skills icon -->
+            <p><strong>Soft Skills:</strong> Strong communication, Fast learner, Teamwork</p>
+        </div>
+        </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI MCQ Generator</h3>
+                        <p>Developed a Flask-based web application that uses Google's Gemini AI to dynamically generate multiple-choice quizzes from any given topic.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">Google Generative API</span>
+                        </div>
+                        <a href="/ai-mcq-generator" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>YouTube AI Quizzer</h3>
+                        <p>YouTube AI Quizzer generates MCQs from YouTube videos using Google Gemini AI to help users test their understanding.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">Google Gemini API</span>
+                            <span class="tag">YouTube Transcript API</span>
+                        </div>
+                        <a href="/youtube-ai-quizzer" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-bookmark"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bookmark Manager</h3>
+                        <p>Developed a full-stack Dockerized Bookmark Manager web app with user authentication and website management, using Flask, PostgreSQL, and Tailwind CSS for a clean UI.</p>
+                        <div class="project-tags">
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <a href="/bookmark-manager" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Movie Hub</h3>
+                        <p>This is a feature-rich movie discovery web application built with React and styled with Tailwind CSS. It allows users to browse popular films from the TMDb API, view detailed information, and manage a personal watchlist.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">TMDb API</span>
+                        </div>
+                        <a href="/movie-hub" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Todo List</h3>
+                        <p>A simple and responsive To-Do List web app built using React.js, allowing users to add, complete, and delete tasks with data persistence using LocalStorage.</p>
+                        <div class="project-tags">
+                            <span class="tag">ReactJS</span>
+                            
+                        </div>
+                        <a href="/todo-list" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
