@@ -8,23 +8,23 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // --- Project Redirects ---
 app.get('/ai-mcq-generator', (req, res) => {
-    res.redirect('http://34.134.191.116:5002');
+    res.redirect('http://34.56.5.144:5002');
 });
 
 app.get('/youtube-ai-quizzer', (req, res) => {
-    res.redirect('http://34.134.191.116:5001');
+    res.redirect('http://34.56.5.144:5001');
 });
 
 app.get('/bookmark-manager', (req, res) => {
-    res.redirect('http://34.134.191.116:5003');
+    res.redirect('http://34.56.5.144:5003');
 });
 
 app.get('/movie-hub', (req, res) => {
-    res.redirect('http://34.134.191.116:4002');
+    res.redirect('http://34.56.5.144:4002');
 });
 
 app.get('/todo-list', (req, res) => {
-    res.redirect('http://34.134.191.116:3001');
+    res.redirect('http://34.56.5.144:3001');
 });
 
 // Fallback: Serve index.html for any unknown route
